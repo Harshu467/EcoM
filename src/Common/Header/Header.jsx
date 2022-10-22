@@ -1,15 +1,16 @@
-import React from 'react'
-import Head from './Head'
-import Navbar from './Navbar'
-import Search from './Search'
+import React from "react"
+import "./Header.css"
+import Head from "./Head"
+import Search from "./Search"
+import Navbar from "./Navbar"
 
-const Header = () => {
+const Header = ({ CartItem }) => {
   return (
-    <>
-    <Head/>
-    <Search/>
-    <Navbar/>
-    </>
+    <div>
+      <Head />
+      <Search CartItem={CartItem} />
+      <Navbar />
+    </div>
   )
 }
 

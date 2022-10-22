@@ -2,7 +2,7 @@ import React from "react"
 
 const Head = () => {
   return (
-    <>
+    <div>
       <section className='head'>
         <div className='container d_flex'>
           <div className='left row'>
@@ -14,14 +14,14 @@ const Head = () => {
           <div className='right row RText'>
             <label>Theme FAQ"s</label>
             <label>Need Help?</label>
-            <span>🏳️‍⚧️</span>
+            <span>🇮🇳</span>
             <label>EN</label>
-            <span>🏳️‍⚧️</span>
-            <label>USD</label>
+            <span>🇮🇳</span>
+            <label>INR</label>
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
